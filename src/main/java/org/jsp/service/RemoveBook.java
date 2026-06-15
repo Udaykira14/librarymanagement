@@ -19,7 +19,11 @@ public class RemoveBook extends HttpServlet{
 	Connection connection;
 	PreparedStatement preparedStatement;
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+<<<<<<< HEAD
 		PrintWriter pout =resp.getWriter();
+=======
+		PrintWriter out =resp.getWriter();
+>>>>>>> 043bf6b (request service added)
 		int id=Integer.parseInt(req.getParameter("id"));
 		
 		
@@ -35,10 +39,17 @@ public class RemoveBook extends HttpServlet{
 			
 			if (result==1) {
 				RequestDispatcher dispatcher= req.getRequestDispatcher("removeBookPage");
+<<<<<<< HEAD
 				pout.println("<h1>Book Deleted</h1>");
 				dispatcher.include(req, resp);			
 			} else {
 				pout.println("<h1>Book Not Deleted</h1>");
+=======
+				out.println("<h1>Book Deleted</h1>");
+				dispatcher.include(req, resp);			
+			} else {
+				out.println("<h1>Book Not Deleted</h1>");
+>>>>>>> 043bf6b (request service added)
 			}
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
