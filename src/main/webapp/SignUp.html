@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SignUp Page</title>
+<link rel="stylesheet" href="Login.css">
+
+</head>
+<body>
+	<div align="center">
+		<form action="signup" method="get" style="height: 50vh;">
+			<fieldset>
+				<legend>SignUp</legend>
+				<br>
+				<div>
+					Id : <input type="number" name="id" value="1" required min="1" max="1000">
+				</div>
+				<div>
+					Name : <input type="text" name="name" value="test" required>
+				</div>
+				<div>
+					Email : <input type="email" name="email" value="test@gmail.com"
+						required>
+				</div>
+				<div>
+					Password : <input type="password" name="password" value="test@123"
+						required>
+				</div>
+				<div>
+					Number : <input type="tel" name="number" value="1234567890"
+						required>
+				</div>
+				<div>
+					Role : User <input type="radio" name="role" value="user" checked
+						required> Admin <input type="radio" name="role"
+						value="admin">
+				</div>
+
+				<button>SignUp</button>
+
+			</fieldset>
+		</form>
+		<a href='Login.html'><button>Go To Login</button></a>
+	</div>
+</body>
+</html>
