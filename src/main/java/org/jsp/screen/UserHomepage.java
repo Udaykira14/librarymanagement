@@ -33,11 +33,8 @@ public class UserHomepage extends HttpServlet{
 		out.println("<a href='displayAllBooks'><button class='btn'>Display All Books</button></a>");
 
 		out.println("<a href='displayBorrowedBooks'><button class='btn'>Display Borrowed Books</button></a>");
-<<<<<<< HEAD
-=======
 		
 		out.println("<a href='requestBookPage'><button>Request Book</button></a>");
->>>>>>> 043bf6b (request service added)
 
 		out.println("<a href='Login.html'><button class='btn logout'>Logout</button></a>");
 

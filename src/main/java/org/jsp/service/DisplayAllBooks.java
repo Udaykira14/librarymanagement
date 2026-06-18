@@ -80,10 +80,7 @@ public class DisplayAllBooks extends HttpServlet{
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}
-<<<<<<< HEAD
-=======
 		out.println("<a href='requestBookPage'><button>Request Book</button></a>");
->>>>>>> 043bf6b (request service added)
 		out.println("<a href='userHomepage'><button>Go To Home..</button></a>");
 
 		out.println("</body>");
