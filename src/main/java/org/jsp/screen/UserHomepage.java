@@ -36,17 +36,9 @@ public class UserHomepage extends HttpServlet{
 		
 		out.println("<a href='requestBookPage'><button>Request Book</button></a>");
 
-		out.println("<a href='Login.html'><button class='btn logout'>Logout</button></a>");
+		out.println("<a href='logout'><button class='btn logout'>Logout</button></a>");
 
 		out.println("</div>");
-//		
-//		out.println("<h1>Hello.. <i>"+name+"</i> id.."+userId+"</h1>");
-//		
-//		out.println("<a href='profile'><button>Profile</button></a>");
-//		out.println("<a href='displayAllBooks'><button>Display All Books</button></a>");
-//		out.println("<a href='displayBorrowedBooks'><button>Display Borrowed Books</button></a>");
-//		out.println("<a href='Login.html'><button>go to Login</button></a>");
-//		
 		out.println("</body>");
 		out.println("</html>");
 	}
