@@ -13,6 +13,11 @@
   </welcome-file-list>
   
   
+  <error-page>
+	<error-code>404</error-code>
+  	<location>/notFound.html</location>
+  </error-page>
+  
   
   
   

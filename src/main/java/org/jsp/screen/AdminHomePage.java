@@ -25,7 +25,7 @@ public class AdminHomePage extends HttpServlet{
 		out.println("<a href='removeBookPage'><button>Remove Book.</button></a>");
 		out.println("<a href='DisplayBookmarks.html'><button>Display Bookmarks</button></a>");
 		out.println("<a href='displayAllBooks_Admin'><button>Display all books</button></a>");
-		out.println("<a href='Login.html'><button>go to Login</button></a>");
+		out.println("<a href='logout'><button>Logout</button></a>");
 
 		out.println("</main>");
 		

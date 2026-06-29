@@ -14,7 +14,7 @@ public class AddBookPage extends HttpServlet{
 	protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		PrintWriter out= resp.getWriter();
 		out.println("<html>");
-		out.println("<head><link rel='stylesheet' href=''>");
+		out.println("<head><link rel='stylesheet' href='profile.css'>");
 		
 		out.println("<title>Add Book</title>");
 		out.println("</head>");

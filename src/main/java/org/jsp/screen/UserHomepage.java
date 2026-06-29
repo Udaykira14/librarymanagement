@@ -21,6 +21,10 @@ public class UserHomepage extends HttpServlet{
 		int userId= (Integer)session.getAttribute("id");
 		
 		out.println("<html>");
+		out.println("<head>");
+		out.println("<title>User Home Page</title>");
+		out.println("<link rel='stylesheet' href='userhome.css'>");
+		out.println("</head>");
 		out.println("<body style='background-color: aqua;'>");
 		
 		
@@ -34,7 +38,7 @@ public class UserHomepage extends HttpServlet{
 
 		out.println("<a href='displayBorrowedBooks'><button class='btn'>Display Borrowed Books</button></a>");
 		
-		out.println("<a href='requestBookPage'><button>Request Book</button></a>");
+		out.println("<a href='requestBookPage'><button class='btn'>Request Book</button></a>");
 
 		out.println("<a href='logout'><button class='btn logout'>Logout</button></a>");
 

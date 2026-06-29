@@ -17,4 +17,8 @@ public class LogOut extends HttpServlet{
 		resp.sendRedirect("Login.html");
 	
 	}
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		doPost(req, resp);
+	}
 }
